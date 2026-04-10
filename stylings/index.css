@@ -31,6 +31,8 @@ p {
     display: flex;
     flex-direction: row;
     gap: 1.2em;
+
+    padding: 20px;
 }
 
 .big-three-container {
@@ -48,10 +50,23 @@ p {
 
 #announcements {
     flex: 6;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
 #academic-calendars {
     flex: 2;
 }
+
+
+/* ANNOUNCEMENTS */
+.announcement-card {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
 
 /* FOOTER STRUCTURE */
