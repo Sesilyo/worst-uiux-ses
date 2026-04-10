@@ -22,6 +22,9 @@ p {
 }
 
 /* HEADER STRUCTURE */
+#header-container {
+    background-color: var(--VERYRED);
+}
 
 /* MAIN STRUCTURE */
 #main-container {
