@@ -1,3 +1,6 @@
+/* IMPORTS */
+@import "./color-variables.css";
+
 /* GLOBAL RESET */
 * {
     margin:  0;
