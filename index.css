@@ -1,0 +1,41 @@
+/* GLOBAL RESET */
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* SET TYPOGRAPHY */
+h1, h2, h3, p {
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-family: Papyrus, fantasy;
+}
+
+p {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* HEADER STRUCTURE */
+
+/* MAIN STRUCTURE */
+#main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#registrar-corner {
+    flex: 2;
+}
+
+#announcements {
+    flex: 6;
+}
+
+#academic-calendars {
+    flex: 2;
+}
+
+/* FOOTER STRUCTURE */
