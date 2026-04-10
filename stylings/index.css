@@ -30,6 +30,16 @@ p {
 #main-container {
     display: flex;
     flex-direction: row;
+    gap: 1.2em;
+}
+
+.big-three-container {
+    padding: 12px;
+}
+
+#registrar-corner, #academic-calendars {
+    border: 5px solid var(--VERYGREEN);
+    border-style: dotted;
 }
 
 #registrar-corner {
