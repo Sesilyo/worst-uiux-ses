@@ -91,12 +91,37 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 2em;
+
 }
 
 .announcement-card {
     display: flex;
     flex-direction: row;
-    gap: 2px;
+    gap: 10px;
+
+    border: 2px solid var(--VERYGREEN);
+    border-style: dashed;
+    padding: 10px;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+
+/* ARE YOU SURE? */
+.AYS {
+    position: fixed;
+    background-color: var(--VERYYELLOW);
+    border: 2px solid var(--VERYRED);
+    padding: 9px 19px;
+    font-size: 0.85rem;
+    pointer-events: none;
+    display: none;
+    z-index: 9999;
+}
+
+.AYS img {
+    max-width:  100px;
+    max-height: 100px;
 }
 
 

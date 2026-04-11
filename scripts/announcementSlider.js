@@ -8,7 +8,7 @@ slider.addEventListener("input", () => {
 
     cards.forEach((card, index) => {
         if (index < visible) {
-            card.style.display = "block";
+            card.style.display = "flex";
         }
 
         else {
