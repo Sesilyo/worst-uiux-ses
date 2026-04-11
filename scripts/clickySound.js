@@ -1,9 +1,9 @@
 /* bouncySound.js */
-const links = document.querySelectorAll(".nav-link");
+const links = document.querySelectorAll("a");
 const sound = document.getElementById("the-best-sound");
 
-console.log(links);
-console.log(sound);
+console.log("clickySound links okay." + links);
+console.log("clickySound sound okay." + sound);
 
 links.forEach(link => {
     link.addEventListener('click', () => {
