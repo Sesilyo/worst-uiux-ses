@@ -13,8 +13,13 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, label {
     font-weight: bold;
+    transition: ease smooth;
+}
+
+h1:hover, h2:hover, h3:hover, p:hover, a:hover, label:hover {
+    font-size: smaller;
 }
 
 h1, h2, h3 {
