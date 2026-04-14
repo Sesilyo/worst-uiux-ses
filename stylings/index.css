@@ -93,15 +93,14 @@ nav {
 }
 
 #announcement-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 .announcement-card {
     display: flex;
-    flex-direction: row;
+    flex-direction: rows;
     gap: 10px;
 
     border: 2px solid var(--VERYGREEN);
