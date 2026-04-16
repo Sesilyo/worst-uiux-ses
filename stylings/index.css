@@ -110,6 +110,20 @@ nav {
     min-height: 250px;
 }
 
+.announcement-card-inner {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.announcement-card-inner img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+    margin: 0 auto;
+    
+}
+
 
 /* ARE YOU SURE? */
 .AYS {
