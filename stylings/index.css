@@ -26,6 +26,11 @@ h1, h2, h3 {
     font-family: Papyrus, fantasy;
 }
 
+h3 {
+    padding-bottom: 3px;
+    border-bottom: 3px solid var(--VERYGOLD);
+}
+
 p, a {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
@@ -69,6 +74,12 @@ nav {
 
 #academic-calendars {
     flex: 2;
+}
+
+/* REGISTRAR'S CORNER */
+#contact-seth-but-please-dont {
+    padding: 5px;
+    border: 5px solid var(--VERYGREEN);
 }
 
 
@@ -144,3 +155,10 @@ nav {
 
 
 /* FOOTER STRUCTURE */
+footer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background: var(--VERYRED);
+    min-height: 80vh;
+}
